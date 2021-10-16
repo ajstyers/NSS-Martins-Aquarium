@@ -1,0 +1,37 @@
+body {
+    background-color: brown;
+}
+
+#appMain {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+.headerMini {
+    /* settings for h1 header text*/
+    font-size: 12pt;
+}
+
+.mainPage {
+    /* sectioned off for main page (left side) */
+    flex: 2 10px;
+}
+
+aside {
+    /* aside for explaining process of keeping tank clean */
+    background-color: coral;
+    flex: 1 10px;
+    float: right;
+}
+
+.allFish {
+    background-color: burlywood;
+}
+
+.fishHeader {
+    font-size: 20pt;
+}
+
+.lionfish-img{
+    width: 200px;
+}
