@@ -1,36 +1,71 @@
 body {
-    background-color: brown;
+    padding: 0px;
+    margin: 0px;
+    width: auto; /* full window width */
+    background-color: #3E6E8C;
 }
 
-#appMain {
+.appMain {
+    padding: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 
-.headerMini {
+.leftMain {
+    width: 73%;
+    padding: 5px;
+}
+
+.topBar {
     /* settings for h1 header text*/
+    background-color: #EBEFF2;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 3px;
+    padding-left: 1%;
+}
+
+.headerMini {
     font-size: 12pt;
+    color: #011826;
 }
 
-.mainPage {
-    /* sectioned off for main page (left side) */
-    flex: 2 10px;
-}
-
-aside {
+.rightSide {
     /* aside for explaining process of keeping tank clean */
-    background-color: coral;
-    flex: 1 10px;
+    background-color: #3E6E8C;
+    background-color: hsl(217, 38%, 34%);
     float: right;
+    padding: 10px;
+    width:23%;
 }
 
 .allFish {
-    background-color: burlywood;
+    background-color: #8AB0BF;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    padding: 10px;
 }
+
+.fishDetails {
+    background-color: #EBEFF2;
+    padding: 5px;
+}
+
 
 .fishHeader {
     font-size: 20pt;
+    color: #042940;
 }
+
+.fishDetail_h4 {
+    color: #042940;
+}
+
+
 
 .lionfish-img{
     width: 200px;
