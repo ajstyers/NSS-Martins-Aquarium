@@ -42,8 +42,8 @@ body {
 
 .allFish {
     background-color: #8AB0BF;
-    flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-evenly;
@@ -52,9 +52,15 @@ body {
 
 .fishDetails {
     background-color: #EBEFF2;
-    padding: 5px;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 250px;
+    height: min-content;
 }
-
 
 .fishHeader {
     font-size: 20pt;
@@ -63,10 +69,57 @@ body {
 
 .fishDetail_h4 {
     color: #042940;
+    margin-top: 0px;
 }
 
+.fish--img{
+    height: 150px;
+    width: auto;
+    margin-bottom: 20px;
+}
 
-
-.lionfish-img{
+.fish-text{
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 170px;
     width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 0pt;
+}
+
+.fish-details--tiny-h {
+    color: rgb(72, 150, 180);
+    font-size: 10pt;
+    margin: 0.4em;
+    padding-top: 5px;
+}
+.fish-details--fish-name {
+    font-size: 15pt;
+    font-weight: bold;
+    color:hsl(217, 54%, 14%);
+    padding-left: 15px;
+    margin-top: 0.7em;
+    margin-bottom: 1em;
+}
+.fish-details--fish-food {
+    font-size: 12pt;
+    padding-left: 15px;
+    margin-top: 0.7em;
+    margin-bottom: 1em;
+}
+.fish-details--fish-length {
+    font-size: 12pt;
+    padding-left: 15px;
+    margin-top: 0.7em;
+    margin-bottom: 1em;
+}
+.fish-details--fish-location {
+    font-size: 12pt;
+    padding-left: 15px;
+    margin-top: 0.7em;
+    margin-bottom: 1em;
 }
