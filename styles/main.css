@@ -14,6 +14,8 @@ body {
 .leftMain {
     width: 73%;
     padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .topBar {
@@ -33,7 +35,6 @@ body {
 
 .rightSide {
     /* aside for explaining process of keeping tank clean */
-    background-color: #3E6E8C;
     background-color: hsl(217, 38%, 34%);
     float: right;
     padding: 10px;
@@ -48,6 +49,7 @@ body {
     margin-right: auto;
     justify-content: space-evenly;
     padding: 10px;
+    width: 100%;
 }
 
 .fishDetails {
@@ -70,6 +72,7 @@ body {
 .fishDetail_h4 {
     color: #042940;
     margin-top: 0px;
+    size: 20pt;
 }
 
 .fish--img{
@@ -122,4 +125,48 @@ body {
     padding-left: 15px;
     margin-top: 0.7em;
     margin-bottom: 1em;
+}
+
+.locations-section {
+    background-color: #8AB0BF;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.harvest-header{
+    font-size: 20pt;
+    color: #042940;
+}
+
+.location-details {
+    background-color: #EBEFF2;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: min-content;
+}
+
+.location-details-header {
+    color: #042940;
+    margin-top: 0px;
+    size: 18pt;
+}
+
+.location-tex {
+    size: 10pt;
+}
+
+.location--img {
+    width: 45%;
+    height: auto;
+    border-radius: 25%;
 }
